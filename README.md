@@ -25,6 +25,8 @@ fromIndex大于或等于数组长度，则停止查找并返回-1。如果参数
 根据indexOf()的语法写出兼容IE6～8的写法如下：
 
 兼容性写法：
+$.inArray(查找对象,查找数组)。
+或者
 if (!Array.prototype.indexOf) {
     Array.prototype.indexOf = function(ele) {
         // 获取数组长度
